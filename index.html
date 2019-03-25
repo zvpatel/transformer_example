@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <!--<link rel="stylesheet" href="style.css" />-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  
+  <script src="transformers.js"></script>
+</head>
+
+<body>
+
+  <div class="col col-lg-4">
+   
+    <h1>Transformers Game</h1>
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <p>Please enter details of transformers game group:.</p>
+        <div class="col align-self-center">
+          <textarea rows="10" cols="50" id="battlegroup"></textarea>
+          <button class="btn btn-info" id="result">Show Result</button>
+        </div>
+        <br/>
+        
+        <div>
+          <h3>Result</h3>
+          <p class="error-msg"></p>
+          <p class="win-noofbattle"></p>
+          <p class="win-team"></p>
+          <p class="win-name"></p>
+          <p class="loosing-team"></p>
+           <p class="loosing-name"></p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
